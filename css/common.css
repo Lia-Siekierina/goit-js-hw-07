@@ -100,3 +100,22 @@ p {
 .item-list li:not(:last-child) {
   margin-bottom: 16px;
 }
+
+/* ====== TASK 3 ====== */
+
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: transparent;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+#name-input:focus {
+  border: 1px solid #1616b9;
+}
