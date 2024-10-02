@@ -68,6 +68,7 @@ p {
 }
 
 /* ====== TASK 1 ====== */
+
 .categories {
   display: flex;
   align-items: flex-start;
@@ -109,6 +110,21 @@ p {
 
 .item-list li:not(:last-child) {
   margin-bottom: 16px;
+}
+
+/* ====== TASK 2 ====== */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  row-gap: 48px;
+}
+
+.gallery-img {
+  width: 360px;
+  height: 100%;
 }
 
 /* ====== TASK 3 ====== */
