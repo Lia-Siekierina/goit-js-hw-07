@@ -11,8 +11,10 @@ buttonCreate.addEventListener('click', () => {
   if (amount >= valueMin && amount <= valueMax) {
     createBoxes(amount);
   }
+
   numberValue.value = '';
 });
+
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
@@ -21,9 +23,9 @@ function getRandomHexColor() {
 
 function createBoxes(amount) {
   boxes.innerHTML = '';
-  const boxesItems = '';
+  const boxesItems = [];
   let boxSize = 30;
-  for (let i = 1; i <= amount; i++) {
+  for (let i = 1; i <= amount; i += 1) {
     
     let div = document.createElement('div');
     div.style.backgroundColor = getRandomHexColor();
@@ -33,9 +35,11 @@ function createBoxes(amount) {
 
     boxSize += 10;
   }
-  boxes.append(boxesItems);
+  boxes.append(...boxesItems);
 }
 
 const destroyBoxes = () => boxes.innerHTML = '';
 buttonDestroy.addEventListener('click', destroyBoxes);
+console.log(boxes);
+
 

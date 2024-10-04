@@ -11,6 +11,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  /* background-color: #4e0e40; */
 }
 
 input {
@@ -144,4 +145,45 @@ p {
 
 #name-input:focus {
   border: 1px solid #1616b9;
+}
+
+/* ====== TASK 6 ====== */
+
+/* #controls {
+  margin-bottom: 32px;
+}
+
+#controls .button-blue:last-child {
+  background: #ff4e4e;
+  margin-left: 16px;
+}
+
+#controls .button-blue:last-child:hover {
+  background: #880a0a;
+}
+
+#controls .button-blue {
+  margin-left: 16px;
+}
+
+#controls input {
+  border-radius: 8px;
+  border: 1px solid #808080;
+  outline: transparent;
+  background: #f6f6fe;
+  width: 486px;
+  height: 104px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+} */
+
+#boxes {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
