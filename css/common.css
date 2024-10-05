@@ -184,6 +184,10 @@ p {
   border: 1px solid #808080;
   border-radius: 4px;
   outline: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
 
   padding: 8px 16px;
   margin-top: 8px;
