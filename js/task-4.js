@@ -21,4 +21,4 @@ formLogin.reset();
 }
 
 formLogin.addEventListener('submit', sendUserInfo);
-console.log(formLogin);
+

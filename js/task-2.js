@@ -32,4 +32,4 @@ const template = images.map(({ url, alt }) => `<li>
 </li>`).join('');
 gallery.insertAdjacentHTML("beforeend", template);
 
-console.log(gallery);
+
